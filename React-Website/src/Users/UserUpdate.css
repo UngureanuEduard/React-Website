@@ -1,0 +1,59 @@
+.userpost-square {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(26, 54, 98);
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    margin-left: 20%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 10px;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+    .input-group label {
+        flex: 1;
+        margin-right: 10px;
+    }
+
+    .input-group input {
+        flex: 2;
+        background-color: rgb(192, 216, 253);
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+    }
+.button-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align buttons vertically in the center */
+    margin-top: 10px;
+    margin-left: 20%;
+    width: 50%;
+}
+
+.back-button {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: rgb(192,216,253);
+    color: black;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}

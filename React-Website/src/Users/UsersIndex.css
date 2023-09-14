@@ -1,0 +1,41 @@
+.user-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-top:1%;
+    margin-left:20%;
+
+}
+
+.user-square {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(26, 54, 98);
+    padding: 10px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    border-radius: 10px;
+    color: white; 
+
+}
+
+    .user-square p {
+        margin: 5px 0; 
+
+    }
+
+.PageId {
+    font-size: 24px; 
+    margin-left:20%;
+    margin-top:1%;
+
+
+}
+
+.user-list a{
+    text-decoration:none;
+}
+
